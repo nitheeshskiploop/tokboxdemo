@@ -1,0 +1,36 @@
+{
+  "name": "sample-app",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "*"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "classnames": "^2.2.5",
+    "opentok-accelerator-core": ">=2.0.0",
+    "opentok-annotation": "*",
+    "opentok-archiving": "*",
+    "opentok-screen-sharing": ">=1.0.28",
+    "opentok-solutions-css": "*",
+    "opentok-text-chat": "*",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-spinner": "^0.2.6",
+    "redux": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
